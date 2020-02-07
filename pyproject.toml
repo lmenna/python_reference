@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python_reference"
+version = "0.1.0"
+authors = ["lmenna <louismenna@yahoo.com>"]
+description = "The reference Python project"
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/<your-username>/hypermodern-python"
+repository = "https://github.com/<your-username>/hypermodern-python"
+keywords = ["reference"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
